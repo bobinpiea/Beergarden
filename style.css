@@ -1,0 +1,188 @@
+/* Itialisation page */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+/* Ajout de l'image de fond */
+.accueil {
+  padding-top: 80px;
+  height: 77vh; 
+  background-image: url('/images/header/h5-revolution-img-1.jpg');  
+  background-size: cover;  
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+/* NAVIGATION TOTALE */
+
+/* barre de navigation */
+.navigation {
+  position: fixed;            
+  top: 0;                    
+  left: 0;                   
+  width: 100%;               
+  z-index: 1000;              
+  
+  display: flex;              
+  justify-content: space-between; 
+  align-items: center;        
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Logo */
+.navigation img {
+  height: 25px;
+}
+
+/* Liens au centre */
+.menu a {
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none; 
+  font-weight: bold;  
+}
+/* au survol */
+.menu a:hover{
+  opacity: 0.5;
+}
+
+/* Icônes réseaux sociaux */
+.fa-brands{
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* LOGO CENTRAL AU MILIEU DE L'ÉCRAN */
+.logo-central {
+  position: absolute;        
+  top: 40%;                  
+  left: 50%;                
+  transform: translate(-50%, -50%); 
+  text-align: center;        
+  z-index: 1;                
+}
+
+.logo-central img {
+  max-width: 100%;            
+  height: auto;             
+}
+
+
+/* MAIN */
+
+/* Premiere Section */
+.bandeau-jaune {
+  height: 15vh; 
+  background-image: url('/images/main/h5-parallax-img-1.jpg'); 
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;  
+}
+
+
+/* Ecriture logo jaune */
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  padding-top: 20px;
+}
+
+/* SECTIONS TRADITIONS */
+
+/* Police section traditions */
+
+.police-traditions1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.police-traditions2{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.read-more{
+  text-decoration: none;
+  color: white;
+  background-image: url('/images/main/h5-parallax-img-1.jpg');
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+/* PREMIERE LIGNE */
+
+.premiere-ligne {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Premiere div - ligne  */
+
+/* deuxieme div - ligne  */
+
+
+.premier-background{
+  background-image: url('/images/main/h5-el-holder-img-1-1.jpg');
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+
+/* SECONDE LIGNE */
+.seconde-ligne {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Premiere div - ligne  */
+.second-background{
+  background-image: url('/images/main/h5-el-holder-img-2.jpg');
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+/* deuxieme div - ligne  */
+
+
+/* Section Galerie */
+
+.galerie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem; /* A voir si je garde ou pas */
+}
+.galerie img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Section Parallax */
+
+.parallax{
+  height: 30vh; 
+  background-image: url('/images/main/h5-parallax-img-2.jpg');
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+/* Section google maps */
+
+
+/* footer */
+
+footer{
+  background-color: black;
+}
+
