@@ -110,50 +110,101 @@ h1 {
   font-style: italic;
 }
 
-/* Read more */
 
-.read-more{
+/*  COMMUN A TOUTE LA SECTION TRADITION  */
+
+.police-traditions2 {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+
+.police-traditions1 {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  width: 70%;
+}
+
+/* Read more */
+.read-more {
   text-decoration: none;
   color: white;
   background-image: url('/images/main/h5-parallax-img-1.jpg');
   padding: 10px 30px;
   border-radius: 5px;
+  font-size: 0.9rem;
 }
+
+.read-more:hover{
+  opacity: 0.5;
+}
+ 
+
 /* PREMIERE LIGNE */
 
 .premiere-ligne {
   display: flex;
   flex-direction: row;
+  height: 70vh;
 }
+
 
 /* Premiere div - ligne  */
 
 .div-premiere{
   width: 50% ;
+  height: 100%;
 }
+
+.div-premiere {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+}
+
+.div-premiere h2 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
 
 /* deuxieme div - ligne  */
 
-.premier-background{
-  width: 50%;
+.div-premiere{
+  width: 50% ;
+  height: 100%;
 }
 
-.premier-background{
+
+.premier-background {
+  width: 50%;
   background-image: url('/images/main/h5-el-holder-img-1-1.jpg');
   background-size: cover;  
   background-position: center; 
   background-repeat: no-repeat; 
+
+  display: flex;               
+  justify-content: center;   
+  align-items: center;        
 }
 
-
+.premier-background img {
+  width: 55%;
+  height: auto;
+}
 
 
 /* SECONDE LIGNE */
 .seconde-ligne {
   display: flex;
   flex-direction: row;
+  height: 70vh;
 }
-
 
 /* Premiere div - ligne  */
 .second-background{
@@ -161,15 +212,44 @@ h1 {
 }
 
 .second-background{
+  width: 50%;
   background-image: url('/images/main/h5-el-holder-img-2.jpg');
   background-size: cover;  
   background-position: center; 
   background-repeat: no-repeat; 
+
+  display: flex;               
+  justify-content: center;   
+  align-items: center; 
 }
+
+.second-background img {
+  width: 55%;
+  height: auto;
+}
+
+
 /* deuxieme div - ligne  */
 .seconde-div{
   width: 50%;
+  height: 100%;
 }
+
+.seconde-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+}
+
+.seconde-div h2 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+
 
 /* Section Galerie */
 
