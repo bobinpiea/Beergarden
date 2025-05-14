@@ -416,25 +416,102 @@ footer{
 /* Rendre Responsive */
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
-  .premiere-ligne {
+  /* NAVIGATION */
+  .navigation {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 1rem 0.5rem;
   }
 
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .reseaux {
+    margin-bottom: 10px;
+  }
+
+  /* BANDEAU JAUNE */
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  /* SECTION TRADITION */
+  .premiere-ligne,
   .seconde-ligne {
     flex-direction: column;
+    height: auto;
   }
 
+  .div-premiere,
+  .premier-background,
+  .seconde-div,
+  .second-background {
+    width: 100%;
+    height: auto;
+  }
 
+  .div-premiere,
+  .seconde-div {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .police-traditions1 {
+    width: 100%;
+  }
+
+  .read-more {
+    margin: 20px auto;
+  }
+
+  /* SECTION GALERIE */
   .galerie {
-  grid-template-columns: 1fr;
-}
+    grid-template-columns: 1fr;
+  }
 
-.services {
-  flex-direction: column;
-  align-items: center;
-}
+  .galerie-item img {
+  height: 250px;        
+  object-fit: cover; 
+}  
+
+  /* SECTION SERVICES */
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .service-item {
+    width: 100%;
+  }
+
+  /* SECTION PARALLAX */
+  .parallax {
+    padding: 20px;
+  }
+
+  .parallax h2 {
+    font-size: 1.5em;
+  }
+
+  .parallax p {
+    font-size: 1em;
+  }
+
+  /* SECTION GOOGLE MAPS */
+  .maps iframe {
+    height: 300px;
+  }
 
 }
-
