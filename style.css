@@ -494,6 +494,8 @@ footer{
 
   .service-item {
     width: 100%;
+    align-items: center; 
+    text-align: center;
   }
 
   /* SECTION PARALLAX */
